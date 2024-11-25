@@ -22,5 +22,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('planner.urls')),  # Include planner app URLs
      path('api/signup', views.signup, name='signup'),
+     path('api/income', views.income, name='income'),
 ]
 
